@@ -102,7 +102,67 @@ Un nodo puede ser un elemento HTML pero también puede ser texto o comentarios e
 # Elementos del DOM en JS
 
 ## Elementos por ID
-### getElementById => 
+### getElementById => Busca un elemento HTML con el id especificado. En principio, un documento HTML bien construído no debería tener más de un elemento con el mismo id, por lo tanto, este método devolverá siempre un solo elemento:
+
+```JS
+const page = document.getElementById("page");   // <div id="page"></div>
+```
+## Elementos por clase
+### getElementsByClassName => 
+
+## Elementos por etiqueta
+### getElementsByTagName => 
+
+## 
+
+##
+
+## Estilos con JS
+
+## Texto en el DOM
+
+## Clases
+
+### Agregar
+
+### Verificar
+
+### Remover
+
+## Crear Elementos
+
+### Crear elemento
+
+### Remover eliminar elemento
+
+# Recorrer el DOM
+
+# Eventos del DOM
+
+Evento => Es algo que ocurre en el sitio web como resultado de iteracción con el usuario o por otra causa como cambios en el estado del dispositivo o de la ventana.
+
+### Eventos del Cursor
+
+### Eventos del Teclado
+
+#### Elemento target(blanco)
+
+    El elemento target 
+
+#### Trigger
+
+#### Event Handler
+
+    Función que se ejecuta cuando ocurre un evento.
+
+#### Event Listener
+
+
+
+
+
+
+
 
 
 
