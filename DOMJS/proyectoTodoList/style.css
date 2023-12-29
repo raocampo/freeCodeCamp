@@ -50,11 +50,63 @@ body{
   border: 3px solid #000;
   border-radius: 5px;
 }
- #crea-tarea{
+#crea-tarea{
   width: 15vh;
   height: 3.5rem;
   font-size: 1rem;
   border-radius: 1rem;
   background-color: #041681f5;
   color: #fff;
+  cursor: pointer;
+}
+#lista-tarea{
+  width: 80%;
+  margin-top: 20px;
+}
+
+/*Tareas*/
+.tarea{
+  width: 100%;
+  min-height: 70px;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #407ba6;
+  border-radius: 10px;
+  display: flex;
+  align-items: ce;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/*Tarea Completada*/
+.tarea.completada{
+  text-decoration: line-through;
+  background-color: #000;
+  border: none;
+}
+.tarea p{
+  max-width: 350px;
+}
+
+/*Iconos*/
+
+i{
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icono-completada{
+  color: rgb(0, 255, 0);
+}
+
+.icono-eliminado{
+  color: #fff;
+}
+
+.icono-completada:hover,
+.icono-eliminado:hover{
+  background-color: rgba(255, 255, 255, 0.523);
 }
