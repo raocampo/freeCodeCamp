@@ -1,5 +1,5 @@
 const tarea = document.getElementById("ingresa-tarea");
-const botonCrear = document.querySelector("button");
+const botonCrear = document.querySelector("#crea-tarea");
 const listaDeTarea = document.getElementById("lista-tareas");
 
 function crearTarea(){
